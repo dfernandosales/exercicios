@@ -44,9 +44,6 @@ export default function(app: Application): void {
   app.publish((data: any, hook: HookContext) => {
     // Here you can add event publishers to channels set up in `channels.ts`
     // To publish only for a specific event use `app.publish(eventname, () => {})`
-
-    console.log('Publishing all events to all authenticated users. See `channels.ts` and https://docs.feathersjs.com/api/channels.html for more information.'); // eslint-disable-line
-
     // e.g. to publish all service events to all authenticated users use
     return app.channel('authenticated');
   });
