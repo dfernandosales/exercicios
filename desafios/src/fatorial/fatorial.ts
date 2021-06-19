@@ -1,3 +1,4 @@
+import { assert } from 'console';
 
 	export const fatorial = (num:number):number  => {
 		assert(num > 0, "Número deve ser um inteiro positivo.");
