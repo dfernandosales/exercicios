@@ -1,30 +1,15 @@
 # API REST - FEATHERS + REACT
 
-## Descrição
-<p>Projeto de uma API REST implementado em NodeJs utilizando Feathers e Squelize que realiza operações CRUD</p>
+Os codigos do desafio encontra-se nas pastas no src/
+para executar os arquivos bata digitar o comando abaixo.
+
+```ts
+  ts-node src/app.ts
+```
 
 ## Link GitHub
 https://github.com/dfernandosales/exercicios
 
-## Tabela de conteúdos
-<!--ts-->
-   * [Features](#Features)
-   * [Execução](#execução)
-   * [Tecnologias utilizadas](#tecnologias)
-   * [Autor](#autor)
-<!--te-->
-
-## Features
-
-- [x] CRUD de veiculos
-- [x] Listagem específica de veículos
-
-
-## Execução
-
-```bash
-yarn start
-```
 
 
 ## Tecnologias
