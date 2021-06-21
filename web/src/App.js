@@ -4,7 +4,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import Theme from './Theme';
 import HomeNavigation from './components/Home/HomeNavigation';
 import { BrowserRouter } from 'react-router-dom';
-import { MainFrame } from './components/Routes';
+import { MainFrame } from './components/routes';
 
 
 function App() {
