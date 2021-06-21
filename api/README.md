@@ -1,45 +1,63 @@
-# veiculos-api
+# API REST - FEATHERS + REACT
 
-> 
+## Descrição
+<p>Projeto de uma API REST implementado em NodeJs utilizando Feathers e Squelize que realiza operações CRUD</p>
 
-## About
+## Link GitHub
+https://github.com/dfernandosales/exercicios
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+## Tabela de conteúdos
+<!--ts-->
+   * [Features](#features)
+   * [Execução](#execução)
+   * [Tecnologias utilizadas](#tecnologias)
+   * [Testes](#testes)
+   * [Autor](#autor)
+<!--te-->
 
-## Getting Started
+## Features
 
-Getting up and running is as easy as 1, 2, 3.
+- [x] CRUD de veiculos
+- [x] Listagem específica de veículos
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
 
-    ```
-    cd path/to/veiculos-api
-    npm install
-    ```
+## Execução
 
-3. Start your app
-
-    ```
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
+```bash
+docker-compose -f docker/arquivo_docker up -d
 ```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
+```bash
+db-migrate up
+```
+```bash
+yarn dev
 ```
 
-## Help
+Após esses três comando serem executados com sucesso o backend + banco da aplicação estará rodando.
 
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+
+## Tecnologias
+<p>As seguintes ferramentas foram utilizadas na construção do projeto:</p>
+
+- [Node.js](https://nodejs.org/en/)
+- [Postgres](https://www.mongodb.com/)
+- [Docker](https://www.docker.com/products/docker-desktop)
+- [FeathersJs](https://docs.feathersjs.com/)
+- [Mocha](https://mochajs.org/)
+
+## Testes
+
+<p>O projeto conta com testes de integração para as operações CRUD. Para rodar os testes, execute:</p>
+
+```bash
+yarn test
+```
+
+## Autor
+---
+
+<a href="https://www.linkedin.com/in/diogo-fernando-sales/">
+ <img style="border-radius: 50%;" src="https://media-exp3.licdn.com/dms/image/C4D03AQHg91PUvzwdyw/profile-displayphoto-shrink_800_800/0/1597152826327?e=1629331200&v=beta&t=uQ55Ss1GUmY1Ajm3YdmJ-QTXhmbrTgH3YhgIFkHIAjg" width="100px;" alt=""/>
+ <br />
+ <sub><b>Diogo Fernando de Melo Sales</b></sub></a> <a href="https://www.linkedin.com/in/diogo-fernando-sales/" title="perfil"> </a>
+

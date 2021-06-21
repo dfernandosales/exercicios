@@ -1,4 +1,4 @@
-export class Votos {
+export class Eleicao {
 	//atributos da classe Votos
 	votosTotal: number;
 	votosValidos: number;
